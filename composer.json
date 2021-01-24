@@ -1,0 +1,33 @@
+{
+  "name": "angus-dv/laravel-freeze",
+  "description": "freeze app for delete , update , insert to database",
+  "authors": [
+    {
+      "name": "Masih Jazayeri",
+      "email": "masih1376@gmail.com"
+    },
+    {
+      "name": "Hassan Mousavi",
+      "email": "hsmsender1370@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/cache": "^8.0|^7.0",
+    "illuminate/support": "^8.0|^7.0",
+    "ext-json": "*",
+    "illuminate/console": "^8.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AngusDV\\LaravelFreeze\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AngusDV\\LaravelFreeze\\LaravelFreezeServiceProvider"
+      ]
+    }
+  }
+}
