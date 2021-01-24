@@ -1,6 +1,6 @@
 <?php
 
-namespace AngusDV\DiscoveryClient;
+namespace AngusDV\LaravelFreeze;
 
 
 use AngusDV\LaravelFreeze\Exceptions\InvalidLoginException;
