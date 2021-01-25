@@ -12,11 +12,7 @@
     }
   ],
   "require": {
-    "php": "7.4.*|^8.0",
-    "illuminate/cache": "^8.0|^7.0",
-    "illuminate/support": "^8.0|^7.0",
-    "ext-json": "*",
-    "illuminate/console": "^8.0|^7.0"
+    "php": "7.4.*|^8.0"
   },
   "autoload": {
     "psr-4": {
