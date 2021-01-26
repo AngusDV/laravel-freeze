@@ -6,5 +6,5 @@ namespace AngusDV\LaravelFreeze\Exceptions;
 
 class InvalidLoginException extends \Exception
 {
-    protected $message = "invalid login exception";
+    protected $message = "متاسفانه شما حق دسترسی ندارید";
 }

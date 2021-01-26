@@ -21,7 +21,8 @@ class LaravelFreezeServiceProvider extends ServiceProvider
     public function boot()
     {
         Event::listen('eloquent.saving*',function($query){
-            if(!strpos($query,'sanctum') && Session::exists('freeze')){
+
+            if(!strpos($query,'sanctum') && Session::exists('freeze') && !strpos($query,'Repository')){
                 throw new InvalidLoginException();
             }
         });
